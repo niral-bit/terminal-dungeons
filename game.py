@@ -23,7 +23,9 @@ def start_game():
 
         # Enemy attacks back
         if enemy_hp > 0:
-            enemy_damage = random.randint(15, 1000)
+            # BUG: here the enemy_damage take an rand interger between 15 to 1000 
+            # Fix take between 15 to 25
+            enemy_damage = random.randint(15, 25)
             player_hp -= enemy_damage
             print(f"The monster attacks you for {enemy_damage} damage!\n")
 
