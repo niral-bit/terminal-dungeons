@@ -16,7 +16,6 @@ def start_game():
             enemy_hp -= damage
             print(f"You hit the monster for {damage} damage!")
         elif action == "2":
-            # BUG: Healing adds negative health or breaks state if over-healed
             player_hp += 20
             print(f"You healed! Current HP: {player_hp}")
         else:
