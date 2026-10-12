@@ -23,7 +23,7 @@ def start_game():
 
         # Enemy attacks back
         if enemy_hp > 0:
-            enemy_damage = random.randint(15, 25)
+            enemy_damage = random.randint(15, 1000)
             player_hp -= enemy_damage
             print(f"The monster attacks you for {enemy_damage} damage!\n")
 
