@@ -1,8 +1,6 @@
 # 🗡️ Terminal Dungeons
 
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-![Course](https://img.shields.io/badge/Symbiosis_Institute_of_Technology-CA--3_Case_Study-orange.svg)
 
 An interactive, retro CLI text-based RPG built in Python where players explore bug-infested dungeons, battle iconic software glitches, earn gold, purchase shop upgrades, and manage items—all while demonstrating real-world open-source software engineering practices, issue tracking, and Pull Request (PR) contribution workflows.
 
