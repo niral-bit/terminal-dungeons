@@ -31,7 +31,8 @@ def start_game():
 
 
     if player_hp <= 0:
-        print(f"You died! Final HP: {player_hp}")
+        # Bug 2: Since the player died the hp should be zero
+        print(f"You died! Final HP: 0")
     else:
         print("You defeated the Segmentation Fault monster! You win!")
 
