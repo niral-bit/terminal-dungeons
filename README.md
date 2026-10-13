@@ -1,6 +1,8 @@
-# 🗡️ Terminal Dungeons
+# 🗡️ Terminal Dungeons (beta)
 
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)
+
+Note: This branch is only to add new Feature and test it.
 
 An interactive, retro CLI text-based RPG built in Python where players explore bug-infested dungeons, battle iconic software glitches, earn gold, purchase shop upgrades, and manage items—all while demonstrating real-world open-source software engineering practices, issue tracking, and Pull Request (PR) contribution workflows.
 
